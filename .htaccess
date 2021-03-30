@@ -1,4 +1,3 @@
-#Включает механизм mod_rewrite
+AddDefaultCharset utf-8
 RewriteEngine On
-#Правило перенаправления, отправляет все запросы в папку public
 RewriteRule ^(.*)$ /public/$1
